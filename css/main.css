@@ -1,0 +1,134 @@
+body {
+    letter-spacing: 2px;
+    line-height: 24px;
+}
+
+.container {
+    width: 80%;
+}
+nav {
+    background-color: slategray;
+    position: fixed;
+}
+nav .brand-logo {
+    padding-left: 0;
+
+}
+.logo {
+    width: 30px;
+    height: 30px;
+}
+.home {
+    height: 100vh;
+    margin: 0 auto;
+    background: url("/img/tlo3.jpeg");
+    animation-name: background_picture;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+    background-size: cover;
+    background-position: center;
+}
+@keyframes background_picture {
+    0% {
+        background: url("/img/tlo3.jpeg");
+    }
+    33% {
+        background: url("/img/tlo1.jpeg");
+    }
+    66% {
+        background: url("/img/tlo2.jpeg");
+    }
+}
+.home-shadow {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.title {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    height: 48%;
+    padding: 5%;
+}
+a,
+h1,
+h3 {
+    font-weight: bold;
+    color: white;
+    font-family: 'Anton', sans-serif;
+}
+h2 {
+    margin: auto;
+    font-family: 'Anton', sans-serif;
+
+}
+p {
+    color: black;
+    font-family: 'Anton', sans-serif;
+}
+.waves-effect {
+    position: unset;
+}
+.work {
+    display: flex;
+
+    align-items: center;
+    text-align: left;
+    padding: 1rem 0;
+}
+.work-img {
+    flex-shrink: none;
+    width: 350px;
+    height: 350px;
+    background: url("/img/tlo1.png");
+    background-position: center;
+    background-size: cover;
+    border-radius: 10%;
+    margin: 5%;
+    padding: 20%;
+}
+.work-text {
+    }
+.produkt-size {
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+
+}
+td {
+    text-align: center;
+}
+.map-background {
+    background-color: slategray;
+    padding: 2rem;
+    text-align: center;
+
+}
+.map {
+    padding: 2rem;
+}
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.position {
+    border-radius: 25%;
+    width: 400px;
+    height: 300px;
+}
+h4 {
+    font-size: 1rem;
+}
+.mail {
+    color: black;
+}
+.footer {
+    padding: 0.5rem;
+    background-color: slategray;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+}
