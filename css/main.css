@@ -1,6 +1,8 @@
 body {
     letter-spacing: 2px;
     line-height: 24px;
+    font-family: 'Anton', sans-serif;
+    box-sizing: border-box;
 }
 
 .container {
@@ -14,10 +16,34 @@ nav .brand-logo {
     padding-left: 0;
 
 }
+.right{
+    display: none;
+}
+.rigt-show {
+    display: inline-block;
+}
 .logo {
     width: 30px;
     height: 30px;
 }
+.first{
+    width: 40px;
+    height: 40px;
+    border: none;
+    font-size: 25px;
+    color: white;
+    margin-top: auto;
+    background-color: slategray;
+    display: grid;
+}
+.burger {
+    width: 35px;
+    height: 7px;
+    background-color: white;
+    margin: 6px auto;
+    max-width: 100%;
+}
+
 .home {
     height: 100vh;
     margin: 0 auto;
@@ -50,31 +76,29 @@ nav .brand-logo {
     text-align: center;
     width: 100%;
     height: 48%;
-    padding: 5%;
+    padding: 10%;
 }
 a,
 h1,
 h3 {
     font-weight: bold;
     color: white;
-    font-family: 'Anton', sans-serif;
+   
 }
 h2 {
     margin: auto;
-    font-family: 'Anton', sans-serif;
-
+    padding: 2rem;
 }
 p {
     color: black;
-    font-family: 'Anton', sans-serif;
 }
 .waves-effect {
     position: unset;
 }
 .work {
     display: flex;
-
     align-items: center;
+    flex-direction: column;
     text-align: left;
     padding: 1rem 0;
 }
@@ -89,11 +113,12 @@ p {
     margin: 5%;
     padding: 20%;
 }
-.work-text {
+tabel {
+    border-collapse: inherit;
     }
 .produkt-size {
-    width: 150px;
-    height: 150px;
+    width: 50px;
+    height: 50px;
     background-size: cover;
     background-position: center;
 
@@ -101,7 +126,31 @@ p {
 td {
     text-align: center;
 }
+.row {
+    display: flex;
+    flex-direction: column;
+}
+/* .row .col {
+    padding: 0px 5.75rem;
+} */
+.col {
+    display: flex;
+    flex-flow: column;
+    
+}
+.rwd{
+
+}
+.fas {
+    color: whitesmoke;
+}
 .map-background {
+    background-color: slategray;
+    padding: 2rem;
+    text-align: center;
+
+}
+.offer-background {
     background-color: slategray;
     padding: 2rem;
     text-align: center;
@@ -112,13 +161,14 @@ td {
 }
 .contact {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: space-around;
 }
 .position {
     border-radius: 25%;
-    width: 400px;
-    height: 300px;
+    width: 250px;
+    height: 190px;
 }
 h4 {
     font-size: 1rem;
@@ -131,4 +181,41 @@ h4 {
     background-color: slategray;
     text-align: center;
     font-family: 'Anton', sans-serif;
+}
+.foot {
+    display: inline-flex;
+}
+@media screen and (min-width: 768px) {
+    nav .brand-logo {
+        display: contents;
+    }
+    .right{
+        display: block;
+    }
+    .first {
+        display: none;
+    }
+    .work {
+        flex-direction: unset;
+    }
+    .produkt-size {
+        width: 150px;
+        height: 150px;
+    }
+        .row {
+            display: flex;
+            flex-direction: row
+            
+        }
+        .rwd {
+            display: inline-flex;
+            justify-content: center;
+        }
+        .contact {
+            flex-direction: row;
+        }
+        .position {
+            width: 400px;
+            height: 300px;
+        }
 }

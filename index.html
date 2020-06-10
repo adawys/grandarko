@@ -8,51 +8,44 @@
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
         <link rel="stylesheet" href="/css/main.css">
-        <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
-        
-      <script src="/js/nav.js"></script>
-                <title>GRAN-DARKO</title>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Anton&display=swap"
+            rel="stylesheet">
+        <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+            integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
+            crossorigin="anonymous">
+        <!-- <script src="/js/nav.js"></script> -->
+        <title>GRAN-DARKO</title>
     </head>
     <body>
         <nav >
-            <div class="nav-wrapper container">
+            <div class="container">
                 <a href="index.html" class="brand-logo"><img class="logo" src="/img/logo.png" alt="logo">
                     <b>GRAN-DARKO</b>
                 </a>
-                <a href="#slide-out" data-target="sidenav" class="sidenav-trigger">
-                    <i class="material-icons">menu</i>
-                </a>
-                <ul class="right hide-on-med-and-down">
+                <button class="first" id="first">
+                    <div class="burger"></div>
+                    <div class="burger"></div>
+                    <div class="burger"></div>
+                </button>
+                <ul class="right hide-on-small-and-down" id="right-show">
                     <li>
                         <a href="#home">O FIRMIE</a>
                     </li>
                     <li>
-                        <a href="#offer">PRODUKTY </a>
+                        <a href="#offer">PRODUKTY
+                        </a>
                     </li>
                     <li>
                         <a href="#contact">KONTAKT</a>
                     </li>
-                    
+
                 </ul>
             </div>
         </nav >
 
-        <!-- <ul id="slide-out" class="sidenav">
-          <li><div class="user-view">
-            <div class="background">
-              <img src="images/office.jpg">
-            </div>
-            <a href="#user"><img class="circle" src="images/yuna.jpg"></a>
-            <a href="#name"><span class="white-text name">John Doe</span></a>
-            <a href="#email"><span class="white-text email">jdandturk@gmail.com</span></a>
-          </div></li>
-          <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
-          <li><a href="#!">Second Link</a></li>
-          <li><div class="divider"></div></li>
-          <li><a class="subheader">Subheader</a></li>
-          <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
-        </ul>
-        <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a> -->
         <section >
             <div class="home">
                 <div class="home-shadow">
@@ -61,16 +54,16 @@
                         <h3>Panele podłogowe</h3>
                         <h3>Marmur Granit</h3>
                         <h3>Posadzki Schody Parapety</h3>
-                        <h1>
+                        <h3>
                             <a href="tel:660835660">660 835 660</a>
-                        </h1>
+                        </h3>
                     </div>
                 </div>
             </div>
         </section>
         <section id="home">
             <div class="work">
-                <div class="work container">
+                <div class="work container"> 
                     <div class="work-img"></div>
                     <div>
                         <h2 class="work-text">O FIRMIE</h2>
@@ -92,74 +85,131 @@
                 </div>
 
             </div>
-            <section class="map-background" id="offer">
-                <div class="container">
-                    <h2>Produkty</h2>
-                    <table>
-                      <tr>
-                         <td><a href="https://www.kaindl.com/en/"><img class="produkt-size" src="/img/produkty/kaindl.svg"></a></td> 
-                         <td><a href="https://classen.pl/"><img class="produkt-size" src="/img/produkty/classen.svg"></a></td> 
-                         <td><a href="https://arteo-flooring.pl/"><img class="produkt-size" src="/img/produkty/arteo.svg"></a></td>
-                      </tr>
-                      <tr>
-                         <td><a href="https://www.krono-original.com/pl-pl"><img class="produkt-size" src="/img/produkty/krono.png"></a></td> 
-                         <td><a href="https://kronodom.com.pl/"><img class="produkt-size" src="/img/produkty/kronodom.png"></a></td> 
-                         <td><a href="https://www.vox.pl/"><img class="produkt-size" src="/img/produkty/vox.svg"></a></td>
-                      </tr>
-                      <tr>
-                         <td><a href="http://wikplast.com/"><img class="produkt-size" src="/img/produkty/wikplast.jpg"></a></td>
-                          <td><a href="http://swisskrono.com/"><img class="produkt-size" src="/img/produkty/swisskrono.png"></a></td>
-                          <td><a href="https://www.vinin.pl/"><img class="produkt-size" src="/img/produkty/vinin.png"></a></td>
-                      </tr>
-                      <tr>
-                        <td><a href="https://www.tarkett.pl/"><img class="produkt-size" src="/img/produkty/tarket.svg"></a></td>
-                         <td><a href="https://www.vilohome.com/"><img class="produkt-size" src="/img/produkty/vilo.png"></a></td>
-                         <td><a href="https://www.doellken.pl/"><img class="produkt-size" src="/img/produkty/dollken.svg"></a></td>
-                     </tr>
-                     <tr>
-                      <td><a href="https://persecto.pl/"><img class="produkt-size" src="/img/produkty/persecto.png"></a></td>
-                      <td><a href="https://setto.pl/"><img class="produkt-size" src="/img/produkty/setto.png"></a></td>
-                       <td><a href="http://www.dotiie.pl/"><img class="produkt-size" src="/img/produkty/dotti.png"></a></td>
-                   </tr>
-                   <tr>
-                    <td><a href="http://www.mk-door.pl/"><img class="produkt-size" src="/img/produkty/mkdoors.png"></a></td>
-                    
-                 </tr>
-                   </table>
-                </div>
-            </section>
         </section>
-        <section id="contact">
+        <section class=" offer-background" id="offer">
             <div class="container">
-                <div class="map">
-                    <h2>Kontakt</h2>
-                    <div class="contact">
-                        <p>GRAN-DARKO<br>
-                            ul. Warszawska 69<br>
-                            06-500 Mława<br>
-                          <a class="mail" href="mailto:biuro@gran-darko.pl">biuro@gran-darko.pl</a></p>
-                        <iframe
-                            class="position"
-                            src="https://www.google.com/maps/d/embed?mid=1Ynzmkw3uXsAH2kjM-Oy-adOiKJnYRSMK"></iframe>
+                <h2>Produkty</h2>
+                <table>
+                    <tr>
+                        <td>
+                            <a href="https://www.kaindl.com/en/"><img class="produkt-size" src="/img/produkty/kaindl.svg"></a>
+                        </td>
+                        <td>
+                            <a href="https://classen.pl/"><img class="produkt-size" src="/img/produkty/classen.svg"></a>
+                        </td>
+                        <td>
+                            <a href="https://arteo-flooring.pl/"><img class="produkt-size" src="/img/produkty/arteo.svg"></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="https://www.krono-original.com/pl-pl"><img class="produkt-size" src="/img/produkty/krono.png"></a>
+                        </td>
+                        <td>
+                            <a href="https://kronodom.com.pl/"><img class="produkt-size" src="/img/produkty/kronodom.png"></a>
+                        </td>
+                        <td>
+                            <a href="https://www.vox.pl/"><img class="produkt-size" src="/img/produkty/vox.svg"></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="http://wikplast.com/"><img class="produkt-size" src="/img/produkty/wikplast.jpg"></a>
+                        </td>
+                        <td>
+                            <a href="http://swisskrono.com/"><img class="produkt-size" src="/img/produkty/swisskrono.png"></a>
+                        </td>
+                        <td>
+                            <a href="https://www.vinin.pl/"><img class="produkt-size" src="/img/produkty/vinin.png"></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="https://www.tarkett.pl/"><img class="produkt-size" src="/img/produkty/tarket.svg"></a>
+                        </td>
+                        <td>
+                            <a href="https://www.vilohome.com/"><img class="produkt-size" src="/img/produkty/vilo.png"></a>
+                        </td>
+                        <td>
+                            <a href="https://www.doellken.pl/"><img class="produkt-size" src="/img/produkty/dollken.svg"></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="https://persecto.pl/"><img class="produkt-size" src="/img/produkty/persecto.png"></a>
+                        </td>
+                        <td>
+                            <a href="https://setto.pl/"><img class="produkt-size" src="/img/produkty/setto.png"></a>
+                        </td>
+                        <td>
+                            <a href="http://www.dotiie.pl/"><img class="produkt-size" src="/img/produkty/dotti.png"></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="http://www.mk-door.pl/"><img class="produkt-size" src="/img/produkty/mkdoors.png"></a>
+                        </td>
 
-                    </div>
+                    </tr>
+                </table>
+                <h2>Usługi</h2>
+                <table class="rwd">
+                    <tr class="row">
+                        <td class="col">
+                            <i class="fas fa-truck fa-7x"></i>
+                            <p>transport</p>
+                        </td>
+                        <td class="col">
+                            <i class="fas fa-expand-arrows-alt fa-7x"></i>
+                            <p>montaż</p>
+                        </td>
+                        <td class="col">
+                            <i class="fas fa-calculator fa-7x"></i>
+                            <p>pomiary</p>
+                        </td>
+                        <td class="col">
+                            <i class="fas fa-comments fa-7x"></i>
+                            <p>doradztwo</p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <div class="map">
+                <h2>Kontakt</h2>
+                <div class="contact">
+                    <p>GRAN-DARKO<br>
+                        ul. Warszawska 69<br>
+                        06-500 Mława<br>
+                        <a class="mail" href="mailto:biuro@gran-darko.pl">biuro@gran-darko.pl</a>
+                    </p>
+                    <iframe
+                        class="position"
+                        src="https://www.google.com/maps/d/embed?mid=1Ynzmkw3uXsAH2kjM-Oy-adOiKJnYRSMK"></iframe>
+
                 </div>
-            </section>
-            <section id="offer">
-                <div class="container"></div>
-            </section>
-            <footer class="footer"> 
-              <div class="container">
-                  <div class="foot">
-                      <h4> &copy DESIGN BY <a class="mail" href="mailto:adawys20@gmail.com">ADAWYS</a></h4>
-                      <ol class="fa-ul">
-                          <a href=""><i class="fab fa-facebook-square fa-2x"></i></a>
-                      </ol>
-                  </div>
-              </div>   
-      </footer>
-      
-        </body>
-        
+            </div>
+        </section>
 
-    </html>
+        <footer class="footer">
+            <div class="container">
+                <div class="foot">
+                    <h4>
+                        &copy DESIGN BY
+                        <a class="mail" href="mailto:adawys20@gmail.com">ADAWYS</a>
+                    </h4>
+                    <ol class="fa-ul">
+                        <a href="https://www.facebook.com/Gran-Darko-110894130647169">
+                            <i class="fab fa-facebook-square fa-2x"></i>
+                        </a>
+                    </ol>
+                </div>
+            </div>
+        </footer>
+        <script src="/js/nav.js"></script>
+    </body>
+
+</html>
